@@ -1,0 +1,36 @@
+body {
+    background-color: yellow;
+}
+
+header {
+    font-size: 50px;
+    text-align: center;
+}
+
+nav {
+    background: yellowgreen;
+}
+
+nav ul {
+    height: 60px;
+    margin: 0px 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    background-color: aqua;
+    padding: 12px 200px;    
+    list-style-type: none;
+}
+
+nav ul li:hover {
+    background-color: red;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
