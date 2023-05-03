@@ -5,20 +5,23 @@ body {
 }
 
 header {
-    font-size: 50px;
+    height: 500px;
+    font-size: 40px;
+    color: white;
+    font-family: cursive;
     text-align: center;
-    background-color: rgb(0, 102, 102);
+    background-image: url(https://wallpapershome.com/images/wallpapers/dog-2560x1440-5k-4k-wallpaper-puppy-black-underwater-funny-animal-pet-1533.jpg);
+    background-size: cover;
+    background-position: 0 20%;
     margin: 0 0;
     padding: 20px;
-}
-
-nav {
-    background: none;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 nav ul {
-    background-color: none;
-    height: 60px;
+    background-color: rgb(0, 170, 255);
+    height: 80px;
     margin: 0px 0px;
     padding-left: 0;
     font-size: 30px;
@@ -38,6 +41,7 @@ nav ul li a {
     padding: 15px 193.5px;
     text-decoration: none;
     transition: 0.5s;
+    border-radius: 50px;
 }
 
 nav ul li a:hover {
@@ -45,7 +49,7 @@ nav ul li a:hover {
 }
 
 main {
-    background-color: rgb(243, 243, 243);
+    /* background-color: rgb(243, 243, 243); */
     display: flex;
     flex-direction: column;
     align-items: center;
